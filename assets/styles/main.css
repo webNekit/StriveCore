@@ -4,3 +4,6 @@
 
 /* modules */
 @import "./modules/button.css";
+@import "./modules/header.css";
+@import "./modules/logo.css";
+@import "./modules/navigation.css";

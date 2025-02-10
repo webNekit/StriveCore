@@ -1,0 +1,15 @@
+.header {
+    padding-block: 24px;
+}
+
+.header__container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 24px;
+}
+
+.header__menu-burger {
+    display: none;
+    margin-inline-start: auto;
+}
