@@ -18,6 +18,9 @@
     /* ghost */
     --ghost: rgba(31, 31, 31, .04);
     --ghost-foreground: var(--secondary);
+    /* accent */
+    --accent: var(--primary);
+    --accent-foreground: var(--primary);
 
     --gray: #f5f5f5;
 
