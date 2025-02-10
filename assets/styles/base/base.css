@@ -1,0 +1,13 @@
+html {
+    width: 100vw;
+    color: var(--foreground);
+    background-color: var(--background);
+}
+
+body {
+    width: 100vw;
+    line-height: 24px;
+    color: var(--foreground);
+    font-family: var(--ff-primary);
+    background-color: var(--background);
+}
