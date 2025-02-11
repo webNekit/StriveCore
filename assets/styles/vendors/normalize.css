@@ -42,6 +42,17 @@ h1 {
     margin: 0.67em 0;
 }
 
+ul, ol, menu {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+a {
+    color: currentColor;
+    text-decoration: none;
+}
+
 /* Grouping content
    ========================================================================== */
 

@@ -5,11 +5,13 @@ html {
 }
 
 body {
-    width: 100vw;
+    width: 100%;
     min-height: 100vh;
     line-height: 24px;
     color: var(--foreground);
     font-family: var(--ff-primary);
+    display: flex;
+    flex-direction: column;
     /*background-color: var(--background);*/
     background-color: #000;
 }

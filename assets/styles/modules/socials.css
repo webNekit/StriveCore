@@ -1,0 +1,22 @@
+.socials {
+    flex-shrink: 0;
+}
+
+.socials__list {
+    display: flex;
+    column-gap: 8px;
+}
+
+.socials__item {
+    display: inline-flex;
+}
+
+.socials__link {
+    --size: 42px;
+    width: var(--size);
+    height: var(--size);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--primary);
+}

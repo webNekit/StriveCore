@@ -1,0 +1,19 @@
+.footer {
+    margin-block-start: auto;
+    padding-block-start: 24px;
+    padding-block-end: 90px;
+    background-color: var(--gray);
+}
+
+.footer__container:is(.footer__container--top) {
+    padding-block: 32px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid var(--border);
+}
+
+.footer__copyright-text {
+    text-align: center;
+    line-height: 24px;
+}
