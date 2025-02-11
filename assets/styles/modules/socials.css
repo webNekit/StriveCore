@@ -18,5 +18,11 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    color: var(--primary-foreground);
     background-color: var(--primary);
+    transition: background-color 200ms;
+}
+
+.socials__link:is(:hover, :active) {
+    background-color: var(--muted);
 }
