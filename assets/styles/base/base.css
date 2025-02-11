@@ -1,5 +1,10 @@
+::selection {
+    color: #000;
+    background-color: rgba(255, 108, 46, 0.85);
+}
+
 html {
-    width: 100vw;
+    width: 100%;
     color: var(--foreground);
     background-color: var(--background);
 }
