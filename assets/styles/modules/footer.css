@@ -17,3 +17,41 @@
     text-align: center;
     line-height: 24px;
 }
+
+.footer__container:is(.footer__container--bottom) {
+    display: flex;
+    align-items: start;
+    justify-content: space-between;
+    padding-block-start: 48px;
+}
+
+.footer__about {
+    flex: 2;
+    display: grid;
+    row-gap: 16px;
+}
+
+.footer__contacts {
+    flex: 1;
+    display: grid;
+    row-gap: 16px;
+}
+
+.footer__contacts-list {
+    display: grid;
+    row-gap: 24px;
+}
+
+.footer__contacts-link {
+    display: flex;
+    align-items: center;
+    column-gap: 8px;
+}
+
+.footer__contacts-link i {
+    color: var(--primary);
+}
+
+.footer__contacts-link:is(.footer__contacts-link--map) {
+    align-items: start;
+}
