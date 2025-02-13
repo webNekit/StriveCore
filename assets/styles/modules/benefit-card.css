@@ -1,0 +1,11 @@
+.benefit-card {
+    width: 100%;
+    height: 100%;
+    padding: 24px;
+    border: 1px solid var(--primary);
+}
+
+.benefit-card__wrapper {
+    display: grid;
+    row-gap: 40px;
+}

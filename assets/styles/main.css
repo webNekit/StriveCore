@@ -4,10 +4,13 @@
 
 /* modules */
 @import "./modules/button.css";
+@import "./modules/spacing.css";
 @import "./modules/header.css";
 @import "./modules/logo.css";
 @import "./modules/navigation.css";
 @import "./modules/intro.css";
 @import "./modules/socials.css";
+@import "./modules/benefits.css";
+@import "./modules/benefit-card.css";
 
 @import "./modules/footer.css";
