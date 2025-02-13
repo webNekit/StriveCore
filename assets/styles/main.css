@@ -12,5 +12,8 @@
 @import "./modules/socials.css";
 @import "./modules/benefits.css";
 @import "./modules/benefit-card.css";
+@import "./modules/pricing.css";
+@import "./modules/pricing-card.css";
+@import "./modules/visitors.css";
 
 @import "./modules/footer.css";
