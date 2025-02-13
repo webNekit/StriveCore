@@ -21,3 +21,9 @@
     column-gap: 80px;
     row-gap: 40px;
 }
+
+.benefits__description {
+    max-width: 608px;
+    margin-inline: auto;
+    text-align: center;
+}
