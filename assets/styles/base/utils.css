@@ -39,3 +39,8 @@
     color: var(--secondary);
     font-family: var(--ff-secondary);
 }
+
+.tag {
+    font-weight: 700;
+    color: var(--primary);
+}
