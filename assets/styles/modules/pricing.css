@@ -24,3 +24,11 @@
 .pricing:is(.pricing--section) .pricing__header-title {
     color: currentColor;
 }
+
+.pricing:is(.pricing--section) .pricing__grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    place-self: stretch;
+    column-gap: 95px;
+    row-gap: 40px;
+}
