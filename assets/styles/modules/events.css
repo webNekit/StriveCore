@@ -1,0 +1,16 @@
+.events:is(.events--section) {
+    position: relative;
+    overflow: hidden;
+}
+
+.events:is(.events--section) .section-decoration:is(.section-decoration--light) {
+    top: 50px;
+    right: -10%;
+    transform: rotate(40deg);
+}
+
+.events:is(.events--section) .section-decoration:is(.section-decoration--dark) {
+    top: 45px;
+    right: -10%;
+    transform: rotate(18deg);
+}

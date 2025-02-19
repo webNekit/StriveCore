@@ -4,6 +4,7 @@
 
 /* modules */
 @import "./modules/button.css";
+@import "./modules/section-decoration.css";
 @import "./modules/spacing.css";
 @import "./modules/header.css";
 @import "./modules/logo.css";
@@ -17,4 +18,6 @@
 @import "./modules/visitors.css";
 @import "./modules/plan.css";
 @import "./modules/plan-card.css";
+@import "./modules/events.css";
+@import "./modules/event-card.css";
 @import "./modules/footer.css";
