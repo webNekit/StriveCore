@@ -1,17 +1,22 @@
 .testimonials-slider {
     position: relative;
     width: 100%;
+    display: flex;
+    flex-direction: column;
 }
 
 .testimonials-slider__wrapper {
-    max-width: 816px !important;
-    width: 100%;
+    width: 860px !important;
+    align-self: center;
 }
 
 .testimonials-slider__button {
     --size: 42px;
     cursor: pointer;
     position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 90;
     width: var(--size);
     height: var(--size);
     font-size: 18px;
@@ -23,9 +28,9 @@
 }
 
 .testimonials-slider__button:is(.testimonials-slider__button--prev) {
-
+    left: 0;
 }
 
 .testimonials-slider__button:is(.testimonials-slider__button--next) {
-
+    right: 0;
 }
