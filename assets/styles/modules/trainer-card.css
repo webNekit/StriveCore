@@ -1,0 +1,11 @@
+.trainer-card:is(.trainer-card--main) {
+
+
+}
+
+
+/* стандартные карточки */
+.trainer-card {
+    flex-grow: 1;
+    align-self: stretch;
+}
