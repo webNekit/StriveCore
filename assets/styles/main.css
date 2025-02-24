@@ -23,4 +23,7 @@
 @import "./modules/community.css";
 @import "./modules/trainers.css";
 @import "./modules/trainer-card.css";
+@import "./modules/testimonials.css";
+@import "./modules/testimonials-slider.css";
+@import "./modules/testimonial-slide.css";
 @import "./modules/footer.css";
