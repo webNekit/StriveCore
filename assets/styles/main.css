@@ -21,4 +21,6 @@
 @import "./modules/events.css";
 @import "./modules/event-card.css";
 @import "./modules/community.css";
+@import "./modules/trainers.css";
+@import "./modules/trainer-card.css";
 @import "./modules/footer.css";

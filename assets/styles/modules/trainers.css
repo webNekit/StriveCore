@@ -1,0 +1,16 @@
+.trainers:is(.trainers--section) {
+    padding-block-start: 30px;
+    padding-block-end: 24px;
+    background-color: var(--background);
+}
+
+.trainers:is(.trainers--section) .trainers__grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 16px;
+}
+
+.trainers:is(.trainers--section) .trainers__grid-item:nth-child(2),
+.trainers:is(.trainers--section) .trainers__grid-item:nth-child(5) {
+    grid-column: 2 span;
+}
