@@ -53,3 +53,9 @@
     object-fit: cover;
     object-position: center;
 }
+
+@media screen and (max-width: 1140.98px) {
+    .benefit-card:is(:hover, :active) {
+        transform: unset;
+    }
+}

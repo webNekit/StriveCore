@@ -44,6 +44,10 @@
     border-radius: 1px;
 }
 
+.navigation__modal-btn {
+    display: none;
+}
+
 @media screen and (max-width: 1440.98px) {
 
 }
@@ -56,6 +60,9 @@
         bottom: 0;
         padding: 40px;
         min-width: 320px;
+        display: flex;
+        flex-direction: column;
+        row-gap: 52px;
         background-color: rgba(0,0,0,.7);
         transform: translateX(-100%);
         visibility: hidden;
@@ -63,6 +70,12 @@
         transition: all 0.3s ease;
         z-index: 80;
     }
+
+    .navigation__modal-btn {
+        width: 100%;
+        display: block;
+    }
+
     .navigation:is(.is-active) {
         transform: translateX(0);
         visibility: visible;

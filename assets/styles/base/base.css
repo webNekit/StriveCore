@@ -24,3 +24,10 @@ body {
     /*background-color: var(--background);*/
     background-color: #000;
 }
+
+@media screen and (max-width: 1140.98px) {
+    body {
+        font-size: 14px;
+        line-height: 1.15;
+    }
+}
