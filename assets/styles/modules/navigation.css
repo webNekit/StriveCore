@@ -43,3 +43,45 @@
     background-color: var(--primary);
     border-radius: 1px;
 }
+
+@media screen and (max-width: 1440.98px) {
+
+}
+
+@media screen and (max-width: 1140.98px) {
+    .navigation {
+        position: fixed;
+        top: 0;
+        left: 0;
+        bottom: 0;
+        padding: 40px;
+        min-width: 320px;
+        background-color: rgba(0,0,0,.7);
+        transform: translateX(-100%);
+        visibility: hidden;
+        opacity: 0;
+        transition: all 0.3s ease;
+        z-index: 80;
+    }
+    .navigation:is(.is-active) {
+        transform: translateX(0);
+        visibility: visible;
+        opacity: 1;
+    }
+    .navigation__menu {
+        row-gap: 24px;
+        align-items: start;
+        flex-direction: column;
+    }
+    .navigation__menu-link {
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width: 768.98px) {
+
+}
+
+@media screen and (max-width: 520.98px) {
+
+}

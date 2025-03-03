@@ -25,4 +25,26 @@
     color: var(--primary-foreground);
     background-color: var(--primary);
     border-radius: var(--rounded-base);
+    z-index: 90;
+}
+
+@media screen and (max-width: 1440.98px) {
+
+}
+
+@media screen and (max-width: 1140.98px) {
+    .header__menu-burger {
+        display: block;
+    }
+    .header__modal-btn {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 768.98px) {
+
+}
+
+@media screen and (max-width: 520.98px) {
+
 }
