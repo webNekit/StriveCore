@@ -10,6 +10,13 @@
     align-self: center;
 }
 
+@media screen and (max-width: 1140.98px) {
+    .testimonials-slider__wrapper {
+        width: 100% !important;
+    }
+}
+
+
 .testimonials-slider__button {
     --size: 42px;
     cursor: pointer;

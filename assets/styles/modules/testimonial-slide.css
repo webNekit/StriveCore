@@ -5,6 +5,12 @@
     overflow: hidden !important;
 }
 
+@media screen and (max-width: 1140.98px) {
+    .testimonial-slide {
+        padding-inline: 0;
+    }
+}
+
 .testimonial-slide__body {
     display: flex;
     flex-direction: column;
